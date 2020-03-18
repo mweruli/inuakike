@@ -1,0 +1,343 @@
+.kc_row .kc_col-sm-12{
+ padding-left:0px !important;
+ padding-right:0px !important; 
+}
+.admin-bar .main-header.fixed-header .sticky-header{
+	top:32px;
+}
+.kc-row-container.kc-container{
+	max-width:1200px;
+	width:100%;
+}
+.main-slider .tp-dottedoverlay.twoxtwo{
+	background-image:none;
+}
+.page-title{
+	background-image:url(../images/background/5.jpg);
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.ui-state-default{
+	background:none;
+	border:none;
+	border-bottom:1px solid rgba(255,255,255,1);
+	border-radius:0px
+}
+.ui-selectmenu-button span.ui-selectmenu-text{
+	padding: 0.4em 2.1em 0.4em 0em;
+}
+.styled-pagination li a, .styled-pagination li span{
+	position:relative;
+	display:inline-block;
+	line-height:14px;
+	padding:9px 5px;
+	height:34px;
+	font-size:14px;
+	min-width:34px;
+	color:#707070;
+	font-weight:400;
+	text-align:center;
+	border-radius:2px;
+	background:#f0f0f0;
+	border:0px;
+	text-transform:capitalize;
+	transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+}
+
+.styled-pagination li a:hover, .styled-pagination li span:hover,
+.styled-pagination li span.current, .styled-pagination li span:focus{
+	color:#ffffff;
+	background:#8000cc;	
+}
+.main-footer .gallery-widget{
+	padding:0px 20px;
+}
+.news-style-two .inner .lower-content blockquote{
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.news-style-two .inner .lower-content blockquote p{
+	padding-left: 50px;
+	padding-top: 60px;
+}
+.comments-area .comment-box .sam_theme .sam_theme{
+	margin-left:70px;
+}
+.default-form h2 small a{
+	font-size:16px;
+	color:#333333;
+	font-weight:600;
+	text-transform:capitalize;
+}
+.comments-area .default-form .group-title{
+	margin-bottom:0px;	
+}
+.comments-area .default-form .group-title h2{
+	border-bottom:0px;
+	padding-bottom:5px;
+}
+/******************************* Charity Style **********************************/
+.widget.widget_charitable_campaigns_widget .campaign{
+	border-bottom:0px;
+	padding-bottom:0px;
+}
+.widget.widget_charitable_campaigns_widget .campaign .wp-post-image{
+	width:100%;
+	height:auto;	
+}
+.widget.widget_charitable_campaigns_widget .campaign .campaign-title{
+	margin-top:20px;
+	margin-bottom:0px;
+}
+.widget.widget_charitable_campaigns_widget .campaign .campaign-title a{
+	color:#333333;
+}
+.widget.widget_charitable_campaigns_widget .campaign .campaign-title a:hover{
+	color:#8000cc;
+}
+
+/******************************* Blog Listing Style **********************************/
+
+.widget ul{
+	position:relative;
+}
+
+.widget ul li{
+	position:relative;
+	line-height:24px;
+	border-bottom:1px solid #ececec;
+}
+
+.widget ul li a{
+	position:relative;
+	display:inline-block;
+	color:#666666;
+	font-size:13px;
+	font-weight:400;
+	line-height:24px;
+	padding:14px 0px 12px;
+	width:87%;
+	font-family: 'Merriweather', serif;
+}
+
+.widget ul li a:hover,
+.widget ul li.current a{
+	color:#222222;
+}
+
+/******************************* Event Single ******************************/
+#tribe-events-content,
+.single-tribe_events .tribe-events-event-image{
+	margin-bottom:0px;
+}
+.tribe-events-event-meta .column, .tribe-events-event-meta .tribe-events-meta-group{
+	padding:0px 2%;
+}
+
+.map-outer .tribe-events-single-section {
+  background: #f7f7f7;
+  padding: 17px 23px 20px;
+} 
+
+.map-outer .tribe-events-single-section li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.map-outer .tribe-events-single-section li:last-child {
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+.map-outer .tribe-events-single-section li i {
+  color: #242424;
+  margin-right: 10px;
+}
+.map-outer .tribe-events-single-section li strong {
+  color: #242424;
+}
+.tribe-events-meta-group .tribe-events-single-section-title{
+	color:#242424;
+}
+#tribe-events .tribe-events-button, .tribe-events-button{
+	position: relative;
+    background: #8000cc;
+    font-size: 14px;
+    line-height: 46px;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 2px solid #8000cc;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 35px;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+#tribe-events .tribe-events-button:hover, .tribe-events-button:hover{
+	background: transparent;
+    color: #242424;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+#tribe-events-footer .posts-nav .post-control a span{
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:36px;
+	display:block;
+	background:#8000cc;
+	border:2px solid #8000cc;
+	font-size:14px;
+	color:#ffffff;
+	transition:all 500ms ease-in all;
+	-moz-transition:all 500ms ease-in all;
+	-ms-transition:all 500ms ease-in all;
+	-o-transition:all 500ms ease-in all;
+	-webkit-transition:all 500ms ease-in all;
+}	
+#tribe-events-footer .posts-nav .post-control a span:hover{
+	background: transparent;
+    color: #242424;
+}
+.single-campaign .campaign-description{
+	color: #999;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+	margin-bottom:25px;
+}	
+.campaign-summary .campaign-summary-item{
+	width:47%;
+	margin:15px;
+}
+.campaign-summary .campaign-donation{
+	text-align:left;
+	margin:0 15px;
+}
+.event-section .tabs-outer .tabs-style-two .tabs-content .tab{
+	display:none;
+}
+.event-section .tabs-outer .tabs-style-two .tabs-content .tab.active-tab{
+	display:block;
+}
+.charitable-form-fields.cf .charitable-form-field{
+	width:47%;
+	margin:0 15px 20px 15px;
+	float:left;
+}
+.charitable-form-fields.cf .charitable-fieldset.odd .charitable-form-field{
+	width:97%;
+	float:none;
+}
+
+.charitable-submit-field .button{
+	position:relative;
+	padding:6px 30px;
+	line-height:24px;
+	text-transform:uppercase;
+	background:#8000cc;
+	color:#ffffff;
+	border:2px solid #8000cc;
+	font-size:12px;
+	font-weight:700;
+	border-radius:50px;
+	font-family: 'Merriweather', serif;
+	margin-top:30px;
+}
+.charitable-submit-field .button:hover{
+	background:none;
+	color:#8000cc;
+}
+
+/*** 
+
+====================================================================
+	Error Section
+====================================================================
+
+***/
+
+.eror-section{
+	position:relative;
+	text-align:center;
+	padding:150px 0px;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
+
+.eror-section h2{
+	position:relative;
+	font-size:200px;
+	font-weight:700;
+	color:#292929;
+	line-height:1em;
+}
+
+.eror-section h4{
+	color:#444444;
+	font-size:32px;
+	font-weight:700;
+	text-transform:capitalize;
+}
+
+.eror-section .text{
+	color:#777777;
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom:35px;
+	font-family: "Open Sans",sans-serif;
+}
+
+.eror-section .theme-btn{
+	margin-bottom:25px;
+}
+
+/********************************* Woocommerce Style *********************************/
+
+.woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce div.product .price ins span{
+	color: #8000cc !important;
+}
+form.cart button.add-to-cart,
+.woocommerce #review_form #respond .form-submit input,
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #place_order,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+	background: none;
+	border: 2px solid #8000cc;
+	color: #333333;
+}
+form.cart button.add-to-cart:hover,
+.woocommerce #review_form #respond .form-submit input:hover,
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover {
+    background: #8000cc;
+    color: #ffffff;
+	border: 2px solid #8000cc;
+}
+.woocommerce .woocommerce-message{
+	border-top-color:#8000cc;
+}
+.woocommerce .woocommerce-info a,
+.woocommerce .woocommerce-info::before{
+	color:#8000cc;
+}
+.woocommerce nav.woocommerce-pagination{
+	margin-bottom:25px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    display: block;
+    height: 48px;
+    padding: 10px 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 48px;
+}
